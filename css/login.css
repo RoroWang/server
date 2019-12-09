@@ -1,0 +1,153 @@
+.margin {
+  width: 990px;
+  margin: 0 auto; }
+
+#header {
+  height: 95px;
+  width: 100%;
+  background: #fff;
+  border-bottom: 2px solid #000; }
+  #header .logo {
+    display: block;
+    width: 290px;
+    height: 70px;
+    background: url(../imgs/logo.gif) no-repeat;
+    margin: 10px 0 0 0px;
+    float: left; }
+  #header .welcom {
+    border-left: 1px #eee solid;
+    width: 290px;
+    height: 44px;
+    line-height: 44px;
+    font-size: 28px;
+    margin: 26px 0px 0px 15px;
+    float: left;
+    padding: 0px 15px;
+    color: #666; }
+  #header a.qq {
+    background: url(../imgs/user_icon.png);
+    float: right;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    background-position: -53px 0px;
+    margin: 45px 0 0 20px; }
+  #header a.xinl {
+    background: url(../imgs/user_icon.png);
+    float: right;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    background-position: -53px -27px;
+    margin: 45px 0 0 20px; }
+  #header a.wechat {
+    background: url(../imgs/user_icon.png);
+    float: right;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    background-position: -53px -60px;
+    margin: 45px 0 0 20px; }
+
+#center {
+  width: 100%;
+  height: 510px; }
+  #center .banner {
+    height: 475px;
+    background: #f99;
+    width: 100%; }
+  #center .margin {
+    position: relative; }
+  #center .login-form {
+    position: absolute;
+    z-index: 1;
+    width: 306px;
+    background: #fff;
+    padding: 20px;
+    overflow: visible;
+    top: 40px;
+    right: 0; }
+    #center .login-form .logintit {
+      height: 27px;
+      line-height: 27px;
+      font-size: 20px;
+      color: #666; }
+      #center .login-form .logintit a {
+        float: right;
+        font-size: 12px;
+        color: #ff666b; }
+    #center .login-form .form .item {
+      overflow: hidden;
+      height: 38px;
+      position: relative;
+      border: 1px solid #ddd;
+      margin-bottom: 20px; }
+      #center .login-form .form .item .text {
+        line-height: 18px;
+        height: 18px;
+        border: 0;
+        padding: 10px 0 10px 40px;
+        width: 264px;
+        float: none;
+        overflow: hidden;
+        font-size: 14px;
+        background: #fff; }
+      #center .login-form .form .item .icon {
+        background: url(../imgs/user_icon.png);
+        display: block;
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        left: 10px;
+        top: 9px; }
+    #center .login-form .form .item-name {
+      margin-top: 31px; }
+      #center .login-form .form .item-name .icon {
+        background-position: 0 -15px; }
+    #center .login-form .form .item-pass .icon {
+      background-position: 0 -36px; }
+    #center .login-form .form .safety {
+      margin-bottom: 15px;
+      overflow: hidden;
+      height: 18px;
+      line-height: 18px; }
+      #center .login-form .form .safety .mar-b {
+        float: left;
+        font: 13px/150% microsoft yahei;
+        color: #666;
+        cursor: pointer; }
+        #center .login-form .form .safety .mar-b .checkbox {
+          vertical-align: middle;
+          margin-right: 3px;
+          float: none; }
+      #center .login-form .form .safety a {
+        float: right; }
+    #center .login-form .form .loginbtn {
+      margin-bottom: 20px;
+      overflow: hidden; }
+      #center .login-form .form .loginbtn #loginsubmit {
+        cursor: pointer;
+        width: 300px;
+        height: 35px;
+        font-size: 14px;
+        color: #FFF;
+        background: #ff666b;
+        text-align: center;
+        line-height: 35px;
+        text-decoration: none;
+        letter-spacing: 2px;
+        border: none; }
+
+#center .banner .form .safety a:hover {
+  color: #ff666b; }
+
+#footer {
+  line-height: 25px; }
+  #footer .nav_bottom a {
+    color: #666;
+    padding: 0px 8px; }
+  #footer p {
+    color: #ccc; }
+
+#footer .nav_bottom a:hover {
+  color: #ff666b; }
